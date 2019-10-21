@@ -1,8 +1,9 @@
 import styled from '@emotion/styled'
 import React from 'react'
 
+import Logo from '../assets/imgs/logo.inline.svg'
 import { Template } from '../components'
-import { Box, Button, Heading, Link, Paragraph, Separator } from '../components/base'
+import { Box, Button, Heading, Link, Paragraph } from '../components/base'
 
 const Home = () => (
   <Template
@@ -10,7 +11,7 @@ const Home = () => (
     title="Title"
   >
     <HomeInner>
-      <Accent />
+      <BrandLogo />
       <Title>Title</Title>
       <Description>Lorem ipsum dolor sit amet.</Description>
       <Link
@@ -30,9 +31,13 @@ const HomeInner = styled(Box)`
   align-items: center;
 `
 
-const Accent = styled(Separator)`
-  width: 100%;
-  border-color: ${props => props.theme.colors.accent100};
+const BrandLogo = styled(Logo)`
+  height: auto;
+  width: 48px;
+
+  path {
+    fill: ${props => props.theme.colors.accent100};
+  }
 `
 
 const Title = styled(Heading)``
@@ -42,5 +47,5 @@ const Description = styled(Paragraph)`
 `
 
 const CallToAction = styled(Button)`
-  width: 120px;
+  width: 80px;
 `
