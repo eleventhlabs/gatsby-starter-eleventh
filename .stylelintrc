@@ -7,8 +7,10 @@
   ],
   "rules": {
     "declaration-empty-line-before": null,
-    "rule-empty-line-before": null,
+    "font-family-no-missing-generic-family-keyword": null,
+    "no-empty-source": null,
     "no-eol-whitespace": null,
-    "no-missing-end-of-source-newline": null
+    "no-missing-end-of-source-newline": null,
+    "rule-empty-line-before": null
   }
 }

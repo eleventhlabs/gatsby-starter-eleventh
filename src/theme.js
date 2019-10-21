@@ -13,5 +13,9 @@ export default {
     ...COLORS,
     accent100: COLORS.blue100,
     text100: COLORS.gray100
+  },
+  fonts: {
+    body: 'sans-serif',
+    heading: 'serif'
   }
 }
