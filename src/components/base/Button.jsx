@@ -11,7 +11,8 @@ const Button = styled(Box)`
   border: none;
   font-size: inherit;
   font-family: ${props => props.theme.fonts.body};
-  color: ${props => props.theme.colors.text100};
+  color: white;
+  background: ${props => props.theme.colors.gray100};
   cursor: pointer;
 `
 

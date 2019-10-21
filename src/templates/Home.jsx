@@ -31,7 +31,7 @@ const HomeInner = styled(Box)`
 `
 
 const Accent = styled(Separator)`
-  width: 120px;
+  width: 100%;
   border-color: ${props => props.theme.colors.accent100};
 `
 
@@ -43,6 +43,4 @@ const Description = styled(Paragraph)`
 
 const CallToAction = styled(Button)`
   width: 120px;
-  color: white;
-  background: ${props => props.theme.colors.accent100};
 `
