@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "ignoreFiles": [
+    "src/styles/reset.css"
+  ],
+  "rules": {
+    "declaration-empty-line-before": null,
+    "rule-empty-line-before": null,
+    "no-eol-whitespace": null,
+    "no-missing-end-of-source-newline": null
+  }
+}
