@@ -1,13 +1,14 @@
+/**
+ * typography.css
+ * Reference: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+ */
+
 html {
-  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
-  font-feature-settings: "kern", "liga", "clig", "calt";
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-kerning: normal;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
