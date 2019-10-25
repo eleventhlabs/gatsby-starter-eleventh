@@ -8,7 +8,7 @@ const Input = styled(Box)`
   padding: 0;
   border: none;
   font-size: inherit;
-  font-family: ${props => props.theme.fonts.body};
+  font-family: ${props => props.theme.fonts.body.family};
   color: ${props => props.theme.colors.text100};
 `
 

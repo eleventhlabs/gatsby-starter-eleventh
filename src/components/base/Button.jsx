@@ -7,12 +7,14 @@ const Button = styled(Box)`
   align-items: center;
   justify-content: center;
 
+  height: 32px;
+  width: 96px;
   padding: 0;
   border: none;
+  font-family: ${props => props.theme.fonts.body.family};
   font-size: inherit;
-  font-family: ${props => props.theme.fonts.body};
   color: white;
-  background: ${props => props.theme.colors.gray100};
+  background: gray;
   cursor: pointer;
 `
 

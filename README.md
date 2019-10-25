@@ -66,7 +66,7 @@ Running this command will build a production version of your site and automatica
 
 ## 🐛 Bugs
 
-1.  Stylelint plugins for code editors breaks when `.babelrc` is configured. See:
+1.  Stylelint plugins for code editors break when `.babelrc` is configured. See:
     - https://github.com/emotion-js/emotion/issues/185
     - https://github.com/stylelint/stylelint/issues/4018
 

@@ -3,19 +3,33 @@
  * Inspired by: https://styled-system.com/theme-specification/
  */
 
-const COLORS = {
+import './styles/reset.css'
+
+import './styles/fonts/pt-sans.css'
+import fontsBody from './styles/fonts/pt-sans-config'
+
+import './styles/fonts/pt-serif.css'
+import fontsHeading from './styles/fonts/pt-serif-config'
+
+const colors = {
   gray100: '#000000',
   blue100: '#0000ff'
 }
 
 export default {
   colors: {
-    ...COLORS,
-    accent100: COLORS.blue100,
-    text100: COLORS.gray100
+    ...colors,
+    accent100: colors.blue100,
+    text100: colors.gray100
   },
   fonts: {
-    body: 'sans-serif',
-    heading: 'serif'
+    body: {
+      ...fontsBody,
+      family: `${fontsBody.family}, sans-serif`
+    },
+    heading: {
+      ...fontsHeading,
+      family: `${fontsHeading.family}, serif`
+    }
   }
 }

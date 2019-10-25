@@ -1,9 +1,13 @@
 import styled from '@emotion/styled'
 
-import Text from './Text'
+import Text, { calcTextStyle } from './Text'
 
 const Heading = styled(Text)`
-  font-family: ${props => props.theme.fonts.heading};
+  ${props => calcTextStyle(props.theme.fonts.heading, {
+    fontSize: 16,
+    lineHeight: 1.5
+  })}
+
   font-weight: bold;
   color: ${props => props.theme.colors.text100};
 `

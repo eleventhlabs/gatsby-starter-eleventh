@@ -4,7 +4,6 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-import '../styles'
 import theme from '../theme'
 
 const Template = ({ children, description, title }) => (
